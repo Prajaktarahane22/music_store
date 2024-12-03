@@ -1,0 +1,34 @@
+{
+  "musics": [
+    {
+      "video": "https://videos.pexels.com/video-files/2306150/2306150-sd_640_360_30fps.mp4",
+      "name": "singer 1 ",
+      "description": "test data",
+      "id": "1"
+    },
+    {
+      "video": "https://videos.pexels.com/video-files/853767/853767-sd_640_360_25fps.mp4",
+      "name": "singer 2 ",
+      "description": "test data",
+      "id": "2"
+    },
+    {
+      "id": "4",
+      "video": "https://videos.pexels.com/video-files/7574500/7574500-sd_360_640_25fps.mp4",
+      "name": "singer 4 ",
+      "description": "test data"
+    },
+    {
+      "id": "7d8e",
+      "video": "https://videos.pexels.com/video-files/4985363/4985363-sd_360_640_25fps.mp4",
+      "name": "songs",
+      "description": "test data"
+    },
+    {
+      "video": "https://v.ftcdn.net/07/68/37/70/700_F_768377055_xx3yuiKiq6zkMqJerNvKeIS4H5SjSyzP_ST.mp4",
+      "name": "songs",
+      "description": "test data",
+      "id": "80d7"
+    }
+  ]
+}

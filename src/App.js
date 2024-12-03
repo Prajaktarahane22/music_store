@@ -1,24 +1,35 @@
-import logo from './logo.svg';
+import AddNav from './components/AddNav';
+
+import{BrowserRouter , Route , Routes} from 'react-router-dom'
+
 import './App.css';
+import MusicList from './components/MusicList';
+import AddMusic from './components/AddMusic';
+import UpdateMusic from './components/UpdateMusic';
+import Home from './components/Home';
+import About from './components/About';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    
+    
+    <AddNav/>
+     
+     <BrowserRouter>
+     <Routes>
+     
+       <Route path="/home" element={<Home/>}/>
+      <Route path="/music-list" element={<MusicList/>}/>
+      <Route path="/addmusic" element={<AddMusic/>}/>
+      <Route path="/about" element={<About/>}/>
+      <Route path="/update-music/:id" element={<UpdateMusic/>}/>
+      
+      </Routes>
+     </BrowserRouter>
+    
+    </>
+    
   );
 }
 
